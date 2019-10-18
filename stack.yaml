@@ -1,0 +1,5 @@
+resolver: lts-14.10
+
+packages:
+- package1
+- package2
