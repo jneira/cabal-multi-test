@@ -1,0 +1,32 @@
+cradle:
+  multi:
+    - path: ./package1/
+      config:
+        cradle:
+          cabal:
+            component: "lib:package1"
+    - path: ./package1/
+      config:
+        cradle:
+          cabal:
+            component: "package1:example-test"
+    - path: ./package1/
+      config:
+        cradle:
+          cabal:
+            component: "exe:package1"
+    - path: ./package2/
+      config:
+        cradle:
+          cabal:
+            component: "lib:package2"
+    - path: ./package2/
+      config:
+        cradle:
+          cabal:
+            component: "package2:example-test"
+    - path: ./package2/
+      config:
+        cradle:
+          cabal:
+            component: "exe:package1"
