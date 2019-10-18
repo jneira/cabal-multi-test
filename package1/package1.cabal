@@ -31,7 +31,7 @@ executable package1
   hs-source-dirs:      app
   default-language:    Haskell2010
 
-test-suite example-test
+test-suite package1-test
   default-language:    Haskell2010
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
